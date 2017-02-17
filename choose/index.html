@@ -8,16 +8,34 @@
   <title>La ruleta del indeciso</title>
   <meta name="description" content="Choose es una aplicación para realizar elecciones random a partir de una lista.">
   <meta name="author" content="Irina y Ariel">
-
-  <link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-  <script src="js/scripts.js"></script>
-  
+  <script src="js/script.js"></script>
+
 </head>
 
 <body>
+  <div class="tituloPrincipal">
+    --Choose--
+  </div>
+
+  <div class="imagenes">
+
+    <img class="cerebro" src="images/cerebrito.png" alt="Creatividad"/>
+    <img class="imagen" src="images/relax.png" alt="Relax"/>
+    <img class="comida" src="images/comida.png" alt="Comida"/>
+    <img class="imagen" src="images/nature.png" alt="Nature"/>
+  </div>
+
+  <div onclick="chooseARandomItem()"class="chooseButton">
+    Or... Random choice!
+  </div>
+
+
 </body>
+
 </html>

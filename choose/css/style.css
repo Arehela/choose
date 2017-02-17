@@ -1,0 +1,52 @@
+
+html{
+  background-color: #ECE9D8;
+  /*width:auto;
+  height:auto;
+  position:absolute;
+  top:20%;
+  margin:0 0 0 0;*/
+}
+.imagen{
+  width: 400px;
+}
+
+.cerebro {
+  width: 350px;
+}
+.comida {
+  width: 300px;
+}
+
+.imagen:hover, .cerebro:hover, .comida:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.chooseButton{
+  font-style: normal;
+  text-align: center;
+  color: #052B32;
+  font-family: 'Barrio', cursive;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  font-size:60px;
+  margin-top: 70px;
+}
+.chooseButton:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.tituloPrincipal{
+  font-size: 10vw;
+
+  font-style: normal;
+  text-align: center;
+  color: #052B32;
+  font-family: 'Barrio', cursive;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+.imagenes {
+  text-align:center;
+  text-shadow: 20px 10px 30px #4D4D4D;
+}
